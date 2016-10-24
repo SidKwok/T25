@@ -1,58 +1,50 @@
-# Node.js Getting started
+# T25
+> Shaun T is my God!
 
-一个简单的使用 Express 4 的 Node.js 应用。
-可以运行在 LeanEngine Node.js 运行时环境。
+# Introduction
 
-## 一键部署
-[![Deploy to LeanEngine](http://ac-32vx10b9.clouddn.com/109bd02ee9f5875a.png)](https://leancloud.cn/1.1/functions/_ops/deploy-button)
+I couldn't find a suitable app for me to record my *T25* process with weight, height and so on. Since VueJs 2.0 comes out, I decided to build the app to help me lose some weight.(Didn't mean I'm already fat😀)
 
-## 本地运行
+## Noted
 
-首先确认本机已经安装 [Node.js](http://nodejs.org/) 运行环境和 [LeanCloud 命令行工具](https://www.leancloud.cn/docs/leanengine_cli.html)，然后执行下列指令：
+No need to care too much about the server, I deployed it to **LeanCloud** so that I can record it at home or anywhere else. So if you want to check out the code, step in the folder `fe`.
 
-```
-$ git clone git@github.com:leancloud/node-js-getting-started.git
-$ cd node-js-getting-started
-```
+## Tech stack:
 
-安装依赖：
+ - **VueJs 2.0** for UI
+ - **vue-router** for Router
+ - **vue-resource** for data fetching
+ - **Vuex** for state management
+ - **vue-cli** for building the project's structure
 
-```
+## Get start
+
+Go to The File Folder `fe` to do the command line!
+
+```bash
 npm install
+npm run dev
+```
+Checkout `localhost: 8080` in the browser!
+
+If it doesn't work, try `sudo`。
+
+To run the unit tests.
+```bash
+npm run unit
 ```
 
-关联应用：
+## Goals
 
-```
-lean app add origin <appId>
-```
 
-这里的 appId 填上你在 LeanCloud 上创建的某一应用的 appId 即可。origin 则有点像 Git 里的 remote 名称。
 
-启动项目：
+## Bugs
 
-```
-lean up
-```
 
-应用即可启动运行：[localhost:3000](http://localhost:3000)
+## Focus!
 
-## 部署到 LeanEngine
+~~I need stars to fill my holes!~~
 
-部署到预备环境（若无预备环境则直接部署到生产环境）：
-```
-lean deploy
-```
+## Reference
 
-将预备环境的代码发布到生产环境：
-```
-lean publish
-```
-
-## 相关文档
-
-* [LeanEngine 指南](https://leancloud.cn/docs/leanengine_guide-node.html)
-* [JavaScript 指南](https://leancloud.cn/docs/js_guide.html)
-* [JavaScript SDK API](https://leancloud.cn/api-docs/javascript/index.html)
-* [命令行工具详解](https://leancloud.cn/docs/cloud_code_commandline.html)
-* [LeanEngine FAQ](https://leancloud.cn/docs/cloud_code_faq.html)
+[Videos](http://www.bilibili.com/video/av3195104/)
